@@ -1,8 +1,8 @@
 <?php
 // สร้าง Application instance.
 $facebook = new facebook(array(
-    'appId'  => '414830161885886', // appid ที่ได้จาก facebook
-    'secret' => '52377fb41e97b22b385d6563a354313d', // app secret ที่ได้จาก facebook
+    'appId'  => 'App_ID', // appid ที่ได้จาก facebook
+    'secret' => 'App_secret', // app secret ที่ได้จาก facebook
     'cookie' => true, // อนุญาตใช้งาน cookie
 ));
 // appId และ secret ดูวิธีการได้มาจาก 
